@@ -1,18 +1,10 @@
-# Technology Overview
-- PostgreSQL
-- Django
-- Zappa
-
-
-## To test the app locally, you need to do the followings:
+To test the app locally, you need to do the followings:
 
 1. Go to virtual environment, "source app-env/bin/activate"
 2. Install packages, "pip install -r requirements.txt" 
 3. Install redis-server for websocket, "sudo apt install redis-server"
 4. Run the redis server in a terminal, "redis-server"
 5. Run the Django in other terminal, "python manage.py runserver"
-
-** Make sure to copy your AWS credentials into ~/.aws/credentials
 -------------------------------------------------------------------------------
 Open the Chrome console to inspect errors.
 
@@ -30,7 +22,7 @@ Open the Chrome console to inspect errors.
 
 
 -------------------------------------------------------------------------------
-# Quick summary of changes
+Quick summary of chnages
 * app>setting.py
     * CHANNEL_LAYERS =[... "hosts": [("localhost", 6379)] ]   
     * WSGI_APPLICATION = 'app.wsgi.application", ASGI_APPLICATION = 'app.routing.application'
