@@ -17,7 +17,7 @@
 - AWS CloudWatch (Monitoring)
 
 
-# To test the app locally, you need to do the followings:
+### To Run the app locally, you need to follow the following steps:
 1. Create a virtual environment, "python3 -m venv app-env"
 1. Go to virtual environment, "source app-env/bin/activate"
 2. Install packages, "pip install -r requirements.txt" 
@@ -41,7 +41,7 @@ Open the Chrome console to inspect errors.
 
 
 -------------------------------------------------------------------------------
-# Quick summary of chnages
+### Quick summary of chnages
 * app>setting.py
     * CHANNEL_LAYERS =[... "hosts": [("localhost", 6379)] ]   
     * WSGI_APPLICATION = 'app.wsgi.application", ASGI_APPLICATION = 'app.routing.application'
