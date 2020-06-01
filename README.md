@@ -41,7 +41,7 @@ Open the Chrome console to inspect errors.
 
 
 -------------------------------------------------------------------------------
-### Quick summary of chnages
+### Quick summary of changes
 * app>setting.py
     * CHANNEL_LAYERS =[... "hosts": [("localhost", 6379)] ]   
     * WSGI_APPLICATION = 'app.wsgi.application", ASGI_APPLICATION = 'app.routing.application'
